@@ -9,9 +9,9 @@ export function NewCycleForm() {
 
   return (
     <FormContainer>
-      <label htmlFor=""> Vou trabalhar em </label>
+      <label htmlFor=""> I will work on </label>
       <TaskInput
-        placeholder="Digite um nome para o projeto"
+        placeholder="Enter a name for the project"
         type="text"
         id="task"
         list="task-sugestions"
@@ -20,12 +20,12 @@ export function NewCycleForm() {
       />
 
       <datalist id="task-sugestions">
-        <option value="Projeto 1" />
-        <option value="Projeto 2" />
-        <option value="Projeto 3" />
+        <option value="Project 1" />
+        <option value="Project 2" />
+        <option value="Project 3" />
       </datalist>
 
-      <label htmlFor="">durante </label>
+      <label htmlFor="">during </label>
       <MinutesAmountInput
         type="number"
         id="minutesAmount"
@@ -36,7 +36,7 @@ export function NewCycleForm() {
         {...register('minutesAmount', { valueAsNumber: true })}
         disabled={!!activeCycle}
       />
-      <span>minutos.</span>
+      <span>minutes.</span>
     </FormContainer>
   );
 }
