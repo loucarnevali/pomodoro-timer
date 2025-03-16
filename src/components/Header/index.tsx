@@ -6,12 +6,21 @@ export function Header() {
   return (
     <HeaderContainer>
       <span>
-        <img
+        {/* <img
           src="https://cdn-icons-png.freepik.com/512/12238/12238179.png"
           // src="https://cdn-icons-png.flaticon.com/512/14359/14359087.png"
           alt=""
           width={'100px'}
-        />
+        /> */}
+        <p
+          style={{
+            fontFamily: 'Luckiest Guy',
+            fontWeight: '400',
+            fontSize: '42px',
+          }}
+        >
+          POMODORO TIMER
+        </p>
       </span>
       <nav>
         <NavLink to="/" title="timer">

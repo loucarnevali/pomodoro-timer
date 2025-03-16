@@ -31,4 +31,10 @@ export const HeaderContainer = styled.header`
       }
     }
   }
+
+  @media (max-width: 425px) {
+    span p {
+      font-size: 1.5rem !important;
+    }
+  }
 `;

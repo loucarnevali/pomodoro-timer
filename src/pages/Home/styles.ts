@@ -33,6 +33,10 @@ export const BaseCountDownButton = styled.button`
     opacity: 0.7;
     cursor: not-allowed;
   }
+
+  @media (max-width: 425px) {
+    width: 50%;
+  }
 `;
 
 export const StartCountDownButton = styled(BaseCountDownButton)`

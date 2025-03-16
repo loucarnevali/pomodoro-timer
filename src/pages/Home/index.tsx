@@ -1,5 +1,5 @@
 import { HandPalm, Play } from 'phosphor-react';
-import { createContext, useContext, useState } from 'react';
+import { useContext } from 'react';
 import {
   HomeContainer,
   StartCountDownButton,
